@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+    --font-display: "Poppins", sans-serif;
+}
+
+html {
+    scrollbar-width: none;
+}
+
+::selection {
+    background-color: #002e5d;
+    color: #ffb39e;
+}
+
+.option-1, .option-2, .option-3, .option-4 {
+    background: radial-gradient(circle, #FFE5E5 10%, transparent 60%), 
+              radial-gradient(circle, #E3FDFD 20%, transparent 80%), 
+              #F9F6E5;
+    background-size: 300px 300px;
+    background-position: 0 0, 150px 150px;
+}
