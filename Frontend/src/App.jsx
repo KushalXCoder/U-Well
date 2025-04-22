@@ -18,7 +18,7 @@ import MainBlog from './MainBlog';
 function App() {
   return (
       <AuthProvider>
-        <div className="app h-screen w-screen relative">
+        <div className="app h-screen w-screen relative overflow-x-hidden">
           <Navbar/>
           <Routes>
             <Route path='/' element={<Home/>}/>
